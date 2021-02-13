@@ -7,7 +7,7 @@ rd=urllib.request.urlopen(url) # returns value in http response.
 num=0
 for line in rd:
 # iterating each content of http response will return bytes. Iterating through bytes will return int.
-# decode() applicable for bytes class only.
+# decode() applicable for bytes class only and will return string.
     line=line.decode().strip()
     if 'span' in line:
         num+=(int(''.join(re.findall('[0-9]+', line)))) # regex to find all numbers in a line of string
