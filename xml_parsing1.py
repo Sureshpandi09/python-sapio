@@ -1,5 +1,6 @@
 # Parsing xml with multiple tags
-# serialisation -> The act of taking data stored in a program and formatting it so it can be sent across the network
+# serialisation -> The act of taking data stored in a program and formatting it so it can be sent across the network. 
+# JSON and XML -> most used data-interchange format
 # complex elements -> elements with ore than one child element(tags)
 # no need of indentation in xml. Its just for our convenient.
 import xml.etree.ElementTree as ET
